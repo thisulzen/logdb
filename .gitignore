@@ -1,0 +1,25 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Test and tooling caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database files produced by running the engine
+*.db
+*.log
+data/
+
+# macOS metadata
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
